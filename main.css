@@ -1,0 +1,64 @@
+body{
+    width: 360px;
+    margin: 0px;
+}
+
+header {
+        background-color: #acd373;
+    }
+    
+    section.greeting {
+            background: #9abd67 url(images/background-header-silhouette.png) no-repeat bottom;
+            height: 350px;
+             }
+    
+    h1 {
+            margin: 0px;
+            text-align: center;
+            font-family: "Source Sans Pro Bold", sans-serif;
+            font-size: 20px;
+            color: #f7f7f7;
+            }
+
+    h3 {
+            text-align: center; 
+            font-family: "Droid Serif Italic", serif;
+            font-size: 13px;
+            color: #f7f7f7;
+            }
+
+    div.downarrow {
+            width: 20px;
+            padding: 20px;
+            border: none;
+            margin: 20px auto 20px auto;
+            }
+
+    div.iphone {
+            width: 50px;
+            padding: 30px;
+            border: none;
+            margin: 10px auto 10px auto;
+            }
+
+    div.manicon {
+            width: 40px;
+            float: left;
+            }
+
+    h2 {
+            font-family: "Source Sans Pro Regular", sans-serif;
+            font-size: 18px;
+            color: #454545;
+            }
+
+    p.whoweare {
+            font-family: "Source Sans Pro Regular", sans-serif;
+            font-size: 13px;
+            color: #454545;
+            }
+
+
+    button{
+            border: 1px #acd373 solid;
+    }
