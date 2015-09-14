@@ -4,61 +4,97 @@ body{
 }
 
 header {
+        width: 360px;
+        height: 40px;
         background-color: #acd373;
-    }
+}
+
+
     
-    section.greeting {
+section.greeting {
             background: #9abd67 url(images/background-header-silhouette.png) no-repeat bottom;
             height: 350px;
-             }
+            margin: auto;
+            text-align: center;
+            color: #f7f7f7;}
     
     h1 {
             margin: 0px;
-            text-align: center;
             font-family: "Source Sans Pro Bold", sans-serif;
             font-size: 20px;
-            color: #f7f7f7;
+            padding-top: 125px;
             }
 
     h3 {
-            text-align: center; 
             font-family: "Droid Serif Italic", serif;
             font-size: 13px;
-            color: #f7f7f7;
             }
 
-    div.downarrow {
-            width: 20px;
-            padding: 20px;
-            border: none;
-            margin: 20px auto 20px auto;
-            }
 
-    div.iphone {
-            width: 50px;
-            padding: 30px;
-            border: none;
-            margin: 10px auto 10px auto;
+section.whoweare{
+            background: #f7f7f7;
+            padding: 43px;
+            height: 500px;
+            font-family: "Source Sans Pro Regular", sans-serif;
+            color: #454545;
             }
 
     div.manicon {
+            padding-top: 36px;
             width: 40px;
+            left: 29px;
             float: left;
             }
 
     h2 {
-            font-family: "Source Sans Pro Regular", sans-serif;
+            padding-top: 45px;
             font-size: 18px;
-            color: #454545;
             }
 
-    p.whoweare {
-            font-family: "Source Sans Pro Regular", sans-serif;
+    p {
             font-size: 13px;
-            color: #454545;
             }
 
 
     button{
             border: 1px #acd373 solid;
     }
+    
+
+section.ourservices{    
+            background: #f7f7f7;
+            padding-top: 42px;
+            height: 498px;
+}
+
+    h2{
+            font-family: "Source Sans Pro Regular", sans-serif, 18px;
+            color: #acd373;
+            text-align: center;
+    
+    p{ 
+            font-family: "Droid Serif Regular", sans-serif, 12px;
+            color: #454545;
+            padding-top: 14px;
+            text-align: center;
+    }
+        
+        
+    h3{
+            font-family: "Source Sans Pro Bold", sans-serif;
+            text-align: center;
+            padding-top: 14px;
+            color: #454545;
+            float: right;
+    }
+        
+
+        
+        
+        
+        
+    button{
+            border: 1px #acd373 solid;
+    }
+        
+    
