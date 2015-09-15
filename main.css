@@ -1,100 +1,130 @@
+html{box-sizing: border-box;}
+
 body{
     width: 360px;
     margin: 0px;
 }
 
 header {
-        width: 360px;
-        height: 40px;
-        background-color: #acd373;
+    width: 360px;
+    height: 40px;
+    background-color: #acd373;
+}
+
+.logo{
+    padding: 5px;
+}
+.menubackground{
+    position: relative;
+    top: 0px;
+    left: 235px;
+}
+.menubutton{position: relative;
+    max-height: 20px;
+    max-width: 15px;
+    top: -33px;
+    left: 334px;
 }
 
 
     
 section.greeting {
-            background: #9abd67 url(images/background-header-silhouette.png) no-repeat bottom;
-            height: 350px;
-            margin: auto;
-            text-align: center;
-            color: #f7f7f7;}
+    background: #9abd67 url(images/background-header-silhouette.png) no-repeat bottom;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    color: #f7f7f7;}
     
-    h1 {
-            margin: 0px;
-            font-family: "Source Sans Pro Bold", sans-serif;
-            font-size: 20px;
-            padding-top: 125px;
+.greeting h1 {
+    margin: 0px auto auto auto;
+    font-family: "Source Sans Pro Bold", sans-serif;
+    font-size: 18px;
+    padding: 125px 0px 0px 0px;
+    text-transform: uppercase;
+    max-width: 325px;
             }
 
-    h3 {
-            font-family: "Droid Serif Italic", serif;
-            font-size: 13px;
+.greeting h3 {
+    font-family: "Droid Serif Italic", serif;
+    font-size: 13px;
             }
 
 
 section.whoweare{
-            background: #f7f7f7;
-            padding: 43px;
-            height: 500px;
-            font-family: "Source Sans Pro Regular", sans-serif;
-            color: #454545;
+    background: #f7f7f7;
+    height: 500px;
+    font-family: "Source Sans Pro Regular", sans-serif;
+    color: #454545;
             }
 
-    div.manicon {
-            padding-top: 36px;
-            width: 40px;
-            left: 29px;
-            float: left;
+    
+.iphone {
+
+    margin: 43px 140px 0px 140px;
+}
+
+.manicon {
+    padding-top: 36px;
+    padding-left: 29px;
+    float: left;
             }
 
-    h2 {
-            padding-top: 45px;
-            font-size: 18px;
+.whoweare h2 {
+    margin: 42px;
+    max-height: 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: -30px;
+           }
+
+.whoweare p {
+    font-size: 13px;
+    padding: 0px 30px 0px 30px;
             }
 
-    p {
-            font-size: 13px;
-            }
 
-
-    button{
-            border: 1px #acd373 solid;
+button{
+    border: 1px #acd373 solid;
     }
     
 
 section.ourservices{    
-            background: #f7f7f7;
-            padding-top: 42px;
-            height: 498px;
+    background: #f7f7f7;
+    padding-top: 42px;
+    height: 498px;
 }
 
-    h2{
-            font-family: "Source Sans Pro Regular", sans-serif, 18px;
-            color: #acd373;
-            text-align: center;
-    
-    p{ 
-            font-family: "Droid Serif Regular", sans-serif, 12px;
-            color: #454545;
-            padding-top: 14px;
-            text-align: center;
+.ourservices h2{
+    font-family: "Source Sans Pro Regular", sans-serif;
+    color: #acd373;
+    text-align: center;
     }
-        
-        
-    h3{
-            font-family: "Source Sans Pro Bold", sans-serif;
-            text-align: center;
-            padding-top: 14px;
-            color: #454545;
-            float: right;
-    }
-        
 
-        
-        
-        
-        
-    button{
-            border: 1px #acd373 solid;
+.ourservices p{ 
+    font-family: "Droid Serif Regular", sans-serif;
+    color: #454545;
+    padding-top: 14px;
+    text-align: center;
     }
+
+.ourservices h3{
+    font-family: "Source Sans Pro Bold", sans-serif;
+    text-align: center;
+    padding-top: 14px;
+    color: #454545;
+    float: right;
+    }
+
+.button{
+    height: 30px;
+    width: 91px;
+    position: relative;
+    left: 29px;
+    font-family: "Droid Serif Italic", sans-serif;
+    font-size: 11px;
+}
         
     
