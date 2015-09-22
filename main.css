@@ -5,19 +5,29 @@ body{
     margin: 0px;
 }
 
-
-
+.pagetitles{
+    font-family: "Source Sans Pro Regular", sans-serif;
+    font-size: 18px;
+    color: #454545;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 h2>em{
     color: #acd373;
+        
 }
 
 .quote{
     font-family: "Droid Serif Regular", serif;
     font-size: 12px;
+    text-align: center;
+    color: #454545;
+    margin: auto;
 }
 
-url(images/dingbatdivider_27.png);
+
+
 
 
 
@@ -135,15 +145,7 @@ nav{
     font-size: 13px;
     padding: 38px 30px 0px 30px;
             }
-    
 
-
-
-
-.ourservices{
-    
-
-}
 
 
 
@@ -159,63 +161,30 @@ nav{
     background: #f7f7f7;
     padding-top: 42px;
     height: 498px;
-    text-align: center;
     position: relative;
 }
 
-.ourservices h2{
-    font-family: "Source Sans Pro Regular", sans-serif;
-    font-size: 18px;
-    color: #454545;
-    text-transform: uppercase;
+.servicelist{
+    list-style: none;
+    padding: 30px;
+    }
+
+.servicedetails, .serviceitem h3{
     display: inline;
-    }
-
-.ourservices h4{
-    font-family: "Droid Serif Regular", serif;
-    font-size: 14px;
-    color: #454545;
 }
 
-.ourservices p{ 
-    font-family: "Droid Serif Regular", sans-serif;
-    font-size: 13px;
-    color: #454545;
-    padding-left: 101px;
-    padding-right: 30px;
-    text-align: left;
-    position: relative;
-    top: -57px;
-    }
-
-.ourservices h3{
-    font-family: "Source Sans Pro Bold", sans-serif;
-    font-size: 14px;
+.serviceitem h3{
     color: #acd373;
     text-transform: uppercase;
-    text-align: left;
-    display: inline;
-    position: relative;
-    top: -50px;
-    }
-
-.brushicon{
-    margin-top: 34px;
-    position: relative;
-    left: -57px;
-}
- 
-.mobileicon{
-
-    position: relative;
-    top: -30px;
-    left: -21px;
+    font-family: "Source Sans Pro Bold" sans-serif; 
+    font-size: 14px;
 }
 
-.monitoricon{
-    position: relative;
-    left: -8px;
-    top: -46px;
+.serviceitem p{
+    color: #454545;
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 13px;
+    display: inline-block;
 }
 
 .ourservices a{
@@ -226,27 +195,22 @@ nav{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    position: relative;
-    top: -17px;
+    margin: auto;
 }
 
 
 
 
     
-section.meetourteam {
+.meetourteam {
     background: #acd373;
     padding-top: 47px;
     height: 485px;
     text-align: center;
 }
 
-.meetourteam h2{
-    font-family: "Source Sans Pro Regular", sans-serif;
+.meetourteam h2, span{
     color: #f7f7f7;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
     }
 
 
@@ -263,6 +227,8 @@ section.meetourteam {
 
 .johndoe{
     margin: 28px;
+    border: 5px #acd373 solid;
+    border-radius: 50%;
 }
 
 .socialbar{
@@ -320,8 +286,224 @@ footer{
     width: 360px;
     height: 66px;
     background-color: #9abd67;
+    position: relative;
+    top: -64px;
+}
+
+.hiringbutton a{
+    color: #acd473;
+    text-decoration: none;
+    border: #acd473 1px solid;
+    padding: 11px 15px;
+    font-family: "Droid Serif Italic", serif;
+    font-size: 11px;
+    font-style: italic;
+    margin: 17px 0;
+    display: inline;
+    position: absolute;
+    
 }
 
 
-        
+
+.recentworks{
+    background: #f7f7f7;
+    padding-top: 47px;
+    height: 520px;
+    text-align: center;
+    position: relative;
+}
+
+.recentworks span{
+    font-color: #454545;
+}
+    
+.letoychart{
+    margin-top: 49px;
+}
+
+.chart{
+    height: 243px;
+    width: 300px;
+    font-color: #ebebeb;
+    background-color: #ebebeb;
+    margin: auto;
+    background-position: bottom;
+}
+
+.letoychart{
+    z-index: 1;
+}
+    
+.recentworks a{
+    color: #acd473;
+    text-decoration: none;
+    border: #acd473 1px solid;
+    padding: 11px 15px;
+    font-family: "Droid Serif Italic", serif;
+    font-size: 11px;
+    font-style: italic;
+    margin: auto;
+}
+
+.recentworks footer{
+    width: 360px;
+    height: 80px;
+    background-color: #ebebeb;
+}
+    
+    
+    
+
+.testimonials{
+    margin: 0;
+    background: url(images/woodenbkgrndoverlay.jpg);
+    height: 562px;
+    position: relative;
+}
+
+.quotebox{
+    margin: auto;
+    width: 300px;
+    height: 85px;
+    z-index: 1;
+    color: #e2e0dd;
+    border: #e2e0dd 1px solid;
+    url(images/blockquote.png);
+    display: block;
+    position: absolute;
+    top: 61px;
+    left: 30px;
+}
+
+.testimonialsource{
+    z-index: 1;
+    padding: 180px 30px 0;
+}
+
+.johndoetestimonial{
+    border: 1px;
+    color: none;
+    border-radius: 50%;
+}
+    
+.testimonials h3{
+    font-family: "Source Sans Pro Bold" sans-serif;
+    font-size: 14px;
+    color: #acd373;
+    text-transform: uppercase;
+    display: inline; 
+}
+   
+.testimonials h2{
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    padding: 25px 30px;
+}
+
+.testimonials p{
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 13px;
+    color: #f7f7f7;
+    text-transform: none;
+    padding: 0 30px;
+}
+    
+.testimonials a{
+    color: #acd473;
+    text-decoration: none;
+    border: #acd473 1px solid;
+    padding: 11px 15px;
+    font-family: "Droid Serif Italic", serif;
+    font-size: 11px;
+    font-style: italic;
+    margin: 17px 0;
+    position: absolute;
+    left: 30px;
+}
+
+
+
+
+
+.blog{
+    height: 674px;
+    background-color: #f7f7f7;
+}
+
+.blogwindow1{
+    width: 160px;
+    height: 171px;
+    position: absolute;
+    left: 14px;
+}
+
+.blogwindow2{
+    width: 160px;
+    height: 171px;
+    position: absolute;
+    left: 186px;
+    display: inline;
+}
+
+.blogwindow3{
+    width: 160px;
+    height: 171px;
+    position: absolute;
+    left: 14px;
+    margin-top: 260px;
+}
+
+.blogwindow4{
+    width: 160px;
+    height: 171px;
+    position: absolute;
+    left: 186px;
+    display: inline;
+    margin-top: 260px;
+}
+
+.blog h4{
+    font-family: "Source Sans Pro Semibold" sans-serif;
+    font-size: 11px;
+    color: #454545;
+}
+
+.blog p{
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 12px;
+    color: #f7f7f7;
+    padding: 30px 10px;
+}
+
+
+.bloglogos{
+    width: 30px;
+    height: 30px;
+    background-color: #acd373;
+    border-radius: 50%;
+}
+
+.blog a{
+    width: 160px;
+    height: 30px;
+    background-color: #acd473;
+    text-decoration: none;
+    font-family: "Droid Serif Italic", serif;
+    text-align: center;
+    font-size: 11px;
+    color: #f7f7f7;
+    font-style: italic;
+    position: absolute;
+    
+}
+
+.blog footer{
+    width: 360px;
+    height: 62px;
+    background-color: #acd373;
+    vertical-align: baseline;
+}
     
