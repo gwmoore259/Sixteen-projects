@@ -451,13 +451,14 @@ nav{
     color: none;
     border-radius: 50%;
     margin-left: -5px;
-    margin-top: -3px;
+    margin-top: 1px;
 }
     
 .testimonialauthor{
     display: inline-block;
     margin: 22px;
     line-height: 17px;
+    position: absolute;
 }
 
 .testimonials h3{
@@ -465,10 +466,6 @@ nav{
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
-/*
-    display: inline-block;
-    padding: 0 22px;
-*/
 }
 
 .testimonialwebsite{
@@ -477,13 +474,18 @@ nav{
     color: #f7f7f7;
     
 }
-   
+  
+.windowdots{
+    text-align: center;
+}
+
+
 .testimonials h2{
     font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 18px;
     color: #f7f7f7;
     text-transform: uppercase;
-    padding: 0px 30px 15px;
+    padding: 30px 30px 15px;
 }
 
 .testimonials p{
@@ -491,18 +493,18 @@ nav{
     font-size: 13px;
     color: #f7f7f7;
     text-transform: none;
-    padding: 0 30px 18px;
+    padding: 0 30px;
 }
     
 .testimonials a{
     color: #acd473;
     text-decoration: none;
     border: #acd473 1px solid;
-    padding: 11px 15px;
+    padding: 10px 15px;
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: 17px 0;
+    margin: 8px 0;
     position: absolute;
     left: 30px;
 }
@@ -519,42 +521,47 @@ nav{
     position: relative;
 }
 
-.blogwindow1{
-    width: 160px;
-    height: 171px;
-    position: absolute;
-    left: 14px;
+.blogimages{
+    
 }
 
-.blogwindow2{
-    width: 160px;
-    height: 171px;
+.blogwindowtop{
+    margin: 14px;
+}
+
+.chairs{
     position: absolute;
-    left: 186px;
+    left: 14px;
+    padding-right: 13px;
+    z-index: 0;
+}
+
+.chairstitle{
+    display: inline-block;
+    background-color: #ebebeb; 
+}
+.earthicon{
+}
+
+.beach{
+    position: inline;
+}
+
+
+
+
+
+.blogwindowbottom{
     display: inline;
 }
 
-.blogwindow3{
-    width: 160px;
-    height: 171px;
-    position: absolute;
-    left: 14px;
-    margin-top: 260px;
-}
-
-.blogwindow4{
-    width: 160px;
-    height: 171px;
-    position: absolute;
-    left: 186px;
-    display: inline;
-    margin-top: 260px;
-}
 
 .blog h4{
     font-family: "Source Sans Pro Semibold" sans-serif;
     font-size: 11px;
     color: #454545;
+    display: inline-block;
+    max-width: 148px;
 }
 
 .blog p{
@@ -569,7 +576,9 @@ nav{
     width: 30px;
     height: 30px;
     background-color: #acd373;
+    border: 5px #f7f7f7;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .blog a{
@@ -583,6 +592,7 @@ nav{
     color: #f7f7f7;
     font-style: italic;
     position: absolute;
+    z-index: 1;
     
 }
 
@@ -592,4 +602,18 @@ nav{
     background-color: #acd373;
     vertical-align: baseline;
 }
+    
+
+
+
+.contact{
+    margin-top: 89px;
+    background-color: #acd373;
+    text-align: center;
+}
+
+.contact h3{
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 14px;
+    color: #f7f7f7;
     
