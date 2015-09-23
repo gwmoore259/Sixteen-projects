@@ -1,5 +1,7 @@
 html{box-sizing: border-box;}
-
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body{
     width: 360px;
     margin: 0px;
@@ -15,7 +17,7 @@ body{
 
 h2>em{
     color: #acd373;
-        
+    font-style: normal;      
 }
 
 .quote{
@@ -23,14 +25,13 @@ h2>em{
     font-size: 12px;
     text-align: center;
     color: #454545;
-    margin: auto;
+    position: relative;
+    top: -8px;
 }
 
-
-
-
-
-
+.dingbat{
+    padding-bottom: 15px;
+}
 
 header {
     width: 360px;
@@ -54,7 +55,6 @@ header {
 
 nav{
     background-color: #89a85c;
-/*    background-image: url(images/button-menu.png);*/
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -169,22 +169,39 @@ nav{
     padding: 30px;
     }
 
-.servicedetails, .serviceitem h3{
-    display: inline;
+.serviceitem{
+    margin-bottom: 15px;
+    padding-left: 50px;
+    min-height: 70px;
 }
+
+.brushicon{
+    background: url(images/paintbrushicon_19.png) no-repeat;
+    
+}
+
+.mobileicon{
+    background: url(images/mobileicon_23.png) no-repeat;
+    }
+
+.monitoricon{
+    background: url(images/monitoricon_27.png) no-repeat;
+    }
 
 .serviceitem h3{
     color: #acd373;
     text-transform: uppercase;
     font-family: "Source Sans Pro Bold" sans-serif; 
     font-size: 14px;
+    margin: 6px 0;
 }
 
 .serviceitem p{
+    margin: 0;
     color: #454545;
     font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 13px;
-    display: inline-block;
+
 }
 
 .ourservices a{
@@ -195,7 +212,10 @@ nav{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    margin-top: -34px;
 }
 
 
@@ -205,41 +225,79 @@ nav{
 .meetourteam {
     background: #acd373;
     padding-top: 47px;
-    height: 485px;
     text-align: center;
+    position: relative;
 }
 
-.meetourteam h2, span{
+.meetourteam h2, .meetourteam span
+{
     color: #f7f7f7;
     }
 
+.meetourteam .quote{
+    color: #f7f7f7;
+}
 
-.nametag{
-    height: 130px;
+.whitedingbat{
+    margin: auto;
+    position: absolute;
+    top:
+}
+    
+
+.teamslider{
+    position: relative;
+}
+
+.sidearrows{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.leftarrow{
+    left: 30px;
+}
+
+.rightarrow{
+    right: 30px;
+}
+
+.employeecard{
     width: 200px;
+    margin: 50px auto;
+}
+.nametag{
     background-color: #f7f7f7;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: auto;
+    height: 130px;
     position: relative;
-    top: -97px;
+    padding: 60px 0 0;
 }
 
-.johndoe{
-    margin: 28px;
+.nametag img{
     border: 5px #acd373 solid;
     border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: 58px;
+}
+.nametag h3{
+    margin: 0;
+}
+
+.nametag h4{
+    margin: 15px 0;
 }
 
 .socialbar{
-    height: 52px;
-    width: 200px;
+    padding: 8px 0;
     background-color: #ebebeb;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
     margin: auto;
-    position: relative;
-    top: -141px; 
+
 }
         
 .meetourteam h3{
@@ -247,92 +305,83 @@ nav{
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
-    position: relative;
-    top: -22px;
-}
-
-.meetourteam p{
-    font-family: "Droid Serif Regular", sans-serif;
-    font-size: 12px;
-    color: #f7f7f7;
-    display: inline;
-    float: left;
-    margin: 30px
-    
 }
 
 .meetourteam h4{
     font-family: "Droid Serif Italic", sans-serif;
     font-size: 12px;
     color: #787878;
-    margin: -21px;
-}
- 
-.sidearrowleft{
-    position: relative;
-    left: -126px;
-    top: -202px;
-    display: inline;
-}
-
-.sidearrowright{
-    position: relative;
-    right: -126px;
-    top: -202px;
-    display: inline;
+    font-style: italic;
 }
     
-footer{
-    width: 360px;
-    height: 66px;
+.meetourteam footer{
     background-color: #9abd67;
-    position: relative;
-    top: -64px;
+    padding:18px 30px;
+    font-size: 13px;
+    text-align: left;
+    position: relative
+}
+.meetourteam footer > *{
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.meetourteam footer span{
+    width: 190px;
 }
 
-.hiringbutton a{
-    color: #acd473;
+.hiringbutton{
+    color: #f7f7f7;
     text-decoration: none;
-    border: #acd473 1px solid;
+    border: #f7f7f7 1px solid;
     padding: 11px 15px;
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: 17px 0;
-    display: inline;
-    position: absolute;
-    
 }
 
 
 
 .recentworks{
     background: #f7f7f7;
-    padding-top: 47px;
+    padding-top: 35px;
     height: 520px;
     text-align: center;
     position: relative;
-}
-
-.recentworks span{
-    font-color: #454545;
+    
 }
     
-.letoychart{
-    margin-top: 49px;
-}
-
 .chart{
     height: 243px;
     width: 300px;
     font-color: #ebebeb;
     background-color: #ebebeb;
     margin: auto;
-    background-position: bottom;
 }
 
 .letoychart{
     z-index: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: 49px;
+    transform: translateY(-74%);
+    left: 30px;
+}
+    
+.recentworks h3{
+    font-family: "Source Sans Pro Bold" sans-serif;
+    font-size: 14px;
+    color: #454545;
+    padding-top: 182px;
+    text-transform: uppercase;
+}
+
+.recentworks h4{
+    font-family: "Droid Serif Italic" serif;
+    font-size: 12px;
+    color: #787878;
+    font-style: italic;
+    margin-top: -6px;
 }
     
 .recentworks a{
@@ -343,17 +392,25 @@ footer{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: auto;
+    line-height: 82px;
 }
 
 .recentworks footer{
-    width: 360px;
-    height: 80px;
     background-color: #ebebeb;
+    padding:18px 30px;
+    margin-top: -13px;
 }
     
+.themeforest{
+    padding: 5px 0 0 18px;
+}
     
-    
+.envato{
+    padding: 0 4px 8px 0;
+}
+
+
+
 
 .testimonials{
     margin: 0;
@@ -366,14 +423,22 @@ footer{
     margin: auto;
     width: 300px;
     height: 85px;
+    font-family: "Droid Serif Regular" serif;
+    font-size: 14px;
     z-index: 1;
     color: #e2e0dd;
     border: #e2e0dd 1px solid;
-    url(images/blockquote.png);
     display: block;
+    padding: 15px 10px;
     position: absolute;
     top: 61px;
     left: 30px;
+}
+
+.blockquote{
+    position: absolute;
+    left: 254px;
+    top: 55px;
 }
 
 .testimonialsource{
@@ -385,14 +450,32 @@ footer{
     border: 1px;
     color: none;
     border-radius: 50%;
+    margin-left: -5px;
+    margin-top: -3px;
 }
     
+.testimonialauthor{
+    display: inline-block;
+    margin: 22px;
+    line-height: 17px;
+}
+
 .testimonials h3{
     font-family: "Source Sans Pro Bold" sans-serif;
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
-    display: inline; 
+/*
+    display: inline-block;
+    padding: 0 22px;
+*/
+}
+
+.testimonialwebsite{
+    font-family: "Droid Serif Italic" serif;
+    font-size: 12px;
+    color: #f7f7f7;
+    
 }
    
 .testimonials h2{
@@ -400,7 +483,7 @@ footer{
     font-size: 18px;
     color: #f7f7f7;
     text-transform: uppercase;
-    padding: 25px 30px;
+    padding: 0px 30px 15px;
 }
 
 .testimonials p{
@@ -408,7 +491,7 @@ footer{
     font-size: 13px;
     color: #f7f7f7;
     text-transform: none;
-    padding: 0 30px;
+    padding: 0 30px 18px;
 }
     
 .testimonials a{
@@ -431,6 +514,9 @@ footer{
 .blog{
     height: 674px;
     background-color: #f7f7f7;
+    padding-top: 47px;
+    text-align: center;
+    position: relative;
 }
 
 .blogwindow1{
