@@ -40,6 +40,10 @@ header {
     background-color: #acd373;
 }
 
+a:hover{
+    background-color: cornflowerblue;
+}
+
 .logo{
     display: inline-block;
     margin: 8px 0 0 30px;
@@ -345,7 +349,6 @@ nav{
 .recentworks{
     background: #f7f7f7;
     padding-top: 35px;
-    height: 520px;
     text-align: center;
     position: relative;
     
@@ -364,7 +367,7 @@ nav{
     position: absolute;
     top: 50%;
     margin-top: 49px;
-    transform: translateY(-74%);
+    transform: translateY(-88%);
     left: 30px;
 }
     
@@ -392,13 +395,14 @@ nav{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    line-height: 82px;
+    position: relative;
+    top: 53px;
 }
 
 .recentworks footer{
     background-color: #ebebeb;
     padding:18px 30px;
-    margin-top: -13px;
+    margin-top: 110px;
 }
     
 .themeforest{
@@ -521,56 +525,29 @@ nav{
     position: relative;
 }
 
-.blogimages{
-    
-}
-
-.blogwindowtop{
-    margin: 14px;
-}
-
-.chairs{
-    position: absolute;
-    left: 14px;
-    padding-right: 13px;
-    z-index: 0;
-}
-
-.chairstitle{
+.blogwindow{
+    width: 160px;
     display: inline-block;
-    background-color: #ebebeb; 
+    background-color: #ebebeb;
+    height: 200px;
 }
-.earthicon{
-}
-
-.beach{
-    position: inline;
-}
-
-
-
-
-
-.blogwindowbottom{
-    display: inline;
-}
-
 
 .blog h4{
     font-family: "Source Sans Pro Semibold" sans-serif;
     font-size: 11px;
     color: #454545;
-    display: inline-block;
+    display: inline;
     max-width: 148px;
 }
 
-.blog p{
+.blog h3{
     font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 12px;
     color: #f7f7f7;
-    padding: 30px 10px;
+    display: inline-block;
+    padding: 12px 10px 0;
+    margin-right: 122px;
 }
-
 
 .bloglogos{
     width: 30px;
@@ -579,10 +556,12 @@ nav{
     border: 5px #f7f7f7;
     border-radius: 50%;
     z-index: 1;
+    display: inline-block;
+    margin: -20px 0 10px;
 }
 
 .blog a{
-    width: 160px;
+    display: block;
     height: 30px;
     background-color: #acd473;
     text-decoration: none;
@@ -591,29 +570,130 @@ nav{
     font-size: 11px;
     color: #f7f7f7;
     font-style: italic;
-    position: absolute;
-    z-index: 1;
-    
+    padding: 8px;
+    margin-top: 25px;
 }
 
 .blog footer{
     width: 360px;
     height: 62px;
     background-color: #acd373;
-    vertical-align: baseline;
+    margin-top: 57px;
 }
     
+.blog form input{
+    background-color: #acd373;
+    width: 110px;
+    height: 25px;
+    border: 1px #f7f7f7;
+    z-index: 1;
+}
+
+.envelope{
+    z-index: 2;
+    width: 31px;
+    height: 25px;
+    background-color: #f7f7f7;
+}
+
+
 
 
 
 .contact{
-    margin-top: 89px;
     background-color: #acd373;
     text-align: center;
+    position: relative;
 }
 
-.contact h3{
+.contact h2{
+    color: #f7f7f7;
+}
+
+.map{
+    max-height: 129px;
+    display: block;
+    margin-top: 20px;
+}
+
+.markericon{
+    z-index: 1;
+    position: relative;
+    top: -122px;
+}
+
+.contact h5{
+    z-index: 2;
+    position: relative;
+    top: -175px;
+}
+
+.contact h5, h4{
+    color: #f7f7f7;
+    font-family: "Source Sans Pro Regular" sans-serif;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.contact h4{
+    margin: 10px;
+}
+
+form label{
     font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 14px;
     color: #f7f7f7;
-    
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+    padding-bottom: 9px;
+    padding-top: 15px;
+}
+
+.contact form input{
+    -webkit-appearance:none;
+    margin: 0 0 10px;
+    border: none;
+}
+
+
+.textfield{
+    width: 300px;
+    height: 28px;
+    background-color: #9abd67;
+    border: none;
+}
+
+.messagefield{
+    width: 300px;
+    height: 84px;
+    background-color: #9abd67;
+    border: none;
+}
+
+.contact h3{
+    font-family: "Droid Serif Italic" serif;
+    font-size: 12px;
+    z-index: 1;
+    color: #f7f7f7;
+    display: inline-block;
+    padding: 8px 80px;
+    position: relative;
+    top: -43px;
+}
+
+.submit{
+    margin-top: 26px;
+    text-indent: -9999px;
+    width: 200px;
+    height: 32px;
+    background-color: #9abd67;
+    margin-left: 80px;
+}
+
+.contact footer{
+    margin-top: -10px;
+    height: 100px;
+    background-color: #9abd67;
+    padding-top: 29px;
+}
