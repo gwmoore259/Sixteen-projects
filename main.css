@@ -27,10 +27,13 @@ h2>em{
     color: #454545;
     position: relative;
     top: -8px;
+    display: block;
 }
 
 .dingbat{
     padding-bottom: 15px;
+    display: block;
+    margin: 0 auto;
 }
 
 header {
@@ -101,8 +104,6 @@ nav{
 
 
 
-
-
 .whoweare{
     height: 500px;
     width: 360px;
@@ -152,15 +153,6 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
 .ourservices{    
     background: #f7f7f7;
     padding-top: 42px;
@@ -170,7 +162,8 @@ nav{
 
 .servicelist{
     list-style: none;
-    padding: 30px;
+    padding: 20px 30px 30px;
+    margin-top: 0px;
     }
 
 .serviceitem{
@@ -197,11 +190,11 @@ nav{
     text-transform: uppercase;
     font-family: "Source Sans Pro Bold" sans-serif; 
     font-size: 14px;
-    margin: 6px 0;
+    margin: 6px 10px;
 }
 
 .serviceitem p{
-    margin: 0;
+    margin: 0 10px;
     color: #454545;
     font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 13px;
@@ -224,8 +217,6 @@ nav{
 
 
 
-
-    
 .meetourteam {
     background: #acd373;
     padding-top: 47px;
@@ -415,7 +406,6 @@ nav{
 
 
 
-
 .testimonials{
     margin: 0;
     background: url(images/woodenbkgrndoverlay.jpg);
@@ -470,6 +460,8 @@ nav{
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 
 .testimonialwebsite{
@@ -512,8 +504,6 @@ nav{
     position: absolute;
     left: 30px;
 }
-
-
 
 
 
@@ -598,8 +588,6 @@ nav{
 
 
 
-
-
 .contact{
     background-color: #acd373;
     text-align: center;
@@ -656,7 +644,6 @@ form label{
     border: none;
 }
 
-
 .textfield{
     width: 300px;
     height: 28px;
@@ -680,6 +667,12 @@ form label{
     padding: 8px 80px;
     position: relative;
     top: -43px;
+}
+
+textarea{
+    display: block;
+    margin-left: 30px;
+    max-width: 300px;
 }
 
 .submit{
