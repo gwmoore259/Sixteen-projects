@@ -5,6 +5,7 @@ html{box-sizing: border-box;}
 body{
     width: 360px;
     margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .pagetitles{
@@ -21,7 +22,7 @@ h2>em{
 }
 
 .quote{
-    font-family: "Droid Serif Regular", serif;
+    font-family: 'Droid Serif Regular', serif;
     font-size: 12px;
     text-align: center;
     color: #454545;
@@ -105,24 +106,25 @@ nav{
 
 
 .whoweare{
-    height: 500px;
     width: 360px;
     background-color: #f7f7f7;
     position: relative;
     font-family: "Source Sans Pro Regular", sans-serif;
     color: #454545;
+    padding-bottom: 97px;
 }
 
 .whoweare .iphone{
     display: block;
     margin: 0 auto;
-    padding-top: 45px;
-            }
+    padding-top: 43px;
+}
 
 .whoweare h2 {
     background: url(images/manicon.png) no-repeat;
     height: 30px;
     padding-left: 38px;
+    margin-top: 40px;
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
@@ -130,7 +132,7 @@ nav{
     display: inline-block;
     position: absolute;
     left: 30px;
-     }
+ }
 
 .whoweare a{
     color: #acd473;
@@ -140,7 +142,7 @@ nav{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: 17px 0;
+    margin: 13px 0;
     display: inline-block;
     position: absolute;
     left: 30px;
@@ -148,15 +150,14 @@ nav{
 
 .whoweare p {
     font-size: 13px;
-    padding: 38px 30px 0px 30px;
+    padding: 77px 30px 0px 30px;
             }
-
 
 
 .ourservices{    
     background: #f7f7f7;
     padding-top: 42px;
-    height: 498px;
+    padding-bottom: 52px;
     position: relative;
 }
 
@@ -317,10 +318,10 @@ nav{
     position: relative
 }
 .meetourteam footer > *{
-
     display: inline-block;
     vertical-align: middle;
 }
+
 .meetourteam footer span{
     width: 190px;
 }
@@ -345,7 +346,7 @@ nav{
     
 }
     
-.chart{
+.workitem{
     height: 243px;
     width: 300px;
     font-color: #ebebeb;
@@ -361,7 +362,7 @@ nav{
     transform: translateY(-88%);
     left: 30px;
 }
-    
+
 .recentworks h3{
     font-family: "Source Sans Pro Bold" sans-serif;
     font-size: 14px;
@@ -375,7 +376,7 @@ nav{
     font-size: 12px;
     color: #787878;
     font-style: italic;
-    margin-top: -6px;
+    margin-top: -7px;
 }
     
 .recentworks a{
@@ -429,6 +430,12 @@ nav{
     left: 30px;
 }
 
+.quotetriangle{
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+}
+
 .blockquote{
     position: absolute;
     left: 254px;
@@ -451,7 +458,6 @@ nav{
 .testimonialauthor{
     display: inline-block;
     margin: 22px;
-    line-height: 17px;
     position: absolute;
 }
 
@@ -464,21 +470,48 @@ nav{
     margin-bottom: 14px;
 }
 
-.testimonialwebsite{
+.testimonialsource a{
     font-family: "Droid Serif Italic" serif;
     font-size: 12px;
     color: #f7f7f7;
-    
+    text-decoration: none;
+    font-style: italic;
 }
   
 .windowdots{
     text-align: center;
 }
 
+/*
+.testimonialselector .selected{
+    background: #f7f7f7;
+}
+
+.testimonialselector span{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+}
+*/
+
+/*
+.companydetails, testimonialcompany img{
+    display: inline-block;
+    vertical-align: middle;
+}
+*/
+
+/*
+.companydetails{
+    width: 190px;
+}
+*/
 
 .testimonials h2{
     font-family: "Source Sans Pro Regular" sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: #f7f7f7;
     text-transform: uppercase;
     padding: 30px 30px 15px;
@@ -486,13 +519,13 @@ nav{
 
 .testimonials p{
     font-family: "Source Sans Pro Regular" sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     color: #f7f7f7;
     text-transform: none;
     padding: 0 30px;
 }
     
-.testimonials a{
+.testimonialbutton{
     color: #acd473;
     text-decoration: none;
     border: #acd473 1px solid;
@@ -500,7 +533,7 @@ nav{
     font-family: "Droid Serif Italic", serif;
     font-size: 11px;
     font-style: italic;
-    margin: 8px 0;
+    margin: 14px 0;
     position: absolute;
     left: 30px;
 }
@@ -508,7 +541,6 @@ nav{
 
 
 .blog{
-    height: 674px;
     background-color: #f7f7f7;
     padding-top: 47px;
     text-align: center;
@@ -518,8 +550,11 @@ nav{
 .blogwindow{
     width: 160px;
     display: inline-block;
+    vertical-align: top;
+    
     background-color: #ebebeb;
-    height: 200px;
+    max-height: 200px;
+    margin: 6px 4px;
 }
 
 .blog h4{
@@ -532,11 +567,13 @@ nav{
 
 .blog h3{
     font-family: "Source Sans Pro Regular" sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     color: #f7f7f7;
     display: inline-block;
-    padding: 12px 10px 0;
-    margin-right: 122px;
+    padding: 12px 0;
+    margin-top: 13px;
+    margin-left: -150px;
+    text-align: left;
 }
 
 .bloglogos{
@@ -569,14 +606,18 @@ nav{
     height: 62px;
     background-color: #acd373;
     margin-top: 57px;
+    margin-bottom: -20px;
 }
     
 .blog form input{
     background-color: #acd373;
     width: 110px;
     height: 25px;
-    border: 1px #f7f7f7;
-    z-index: 1;
+    border: 1px #f7f7f7 solid;
+    z-index: 2;
+    position: absolute;
+    bottom: 18px;
+    right: 40px;   
 }
 
 .envelope{
@@ -584,6 +625,7 @@ nav{
     width: 31px;
     height: 25px;
     background-color: #f7f7f7;
+    position: absolute;
 }
 
 

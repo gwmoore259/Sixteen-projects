@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
 
     <title>Sixteen</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
     <link href="main.css" rel="stylesheet" type="text/css">
-    <!--<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>-->
+    
 </head>
 
 <body>
@@ -25,15 +26,16 @@
             <h1>We Are Sixteen Digital Agency</h1>
 
             <h3>Based on Jakarta, Indonesia</h3>
-            <img alt="downarrow" src=
-        "images/downarrow.png">
+            <a class="downarrow" href="index.html"><img alt="downarrow" src="images/downarrow.png"></a>
         </div>
     </section>
 
+    
+       
     <section class="whoweare">
         <img alt="iphone" class="iphone" src="images/product-iphone.png">
 
-        <h2>Who We Are</h2><br>
+        <h2>Who We Are</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam
         in omnis voluptates, optio architecto doloremque eius, nihil, error
@@ -41,6 +43,8 @@
         sunt</p><a href="#">Learn More</a>
     </section>
 
+    
+       
     <section class="collegevideo">
         <video controls poster="images/collegestudentsvideobackdrop.jpg">
   <source src="images/unlcampus.mp4" type="video/mp4">
@@ -48,9 +52,9 @@
   Your browser does not support the video tag.
         </video>
         
-        
-
     </section>
+    
+    
 
     <section class="ourservices">
         <h2 class="pagetitles">Our <em>Services</em></h2><span class=
@@ -112,8 +116,7 @@
                         <a href="www.twitter.com"><img src="images/twittericon.png"></a>
                         <a href="www.linkedin.com"><img src="images/linkedinicon.png"></a>
                     </div>
-                </div>
-            
+                </div>  
         </div>
         
         <footer>
@@ -134,12 +137,32 @@
         "quote">Asperiores ea commodi eius a quo omnis esse</span><br>
         <img alt="dingbat" src="images/dingbatdivider_27.png" class="dingbat">
 
-        <div class="chart">
-            <h3>Letoy Themes</h3><h4>Web Design &amp; Development</h4>
-        </div><a href="#">View All Works</a>
         
-        <img class="letoychart" src="images/letoythemeschart_41.png" alt="letoychart">
-
+           
+<!--
+        <div class="workitem">
+            <img src="images/letoythemeschart_41.png" alt="">
+            <div class="workdetails">
+                <div class="worktitle">
+                    <h3></h3>
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+                   
+-->
+           
+           
+        <div class="workitem">
+            <img class="letoychart" src="images/letoythemeschart_41.png" alt="letoychart">
+            <div class="itemheadline">
+                <h3>Letoy Themes</h3>
+                <h4>Web Design &amp; Development</h4>
+            </div>
+        </div>
+        
+        <a href="#">View All Works</a>
+        
         <footer>
             <img alt="envato" src="images/envatoicon.png" class="envato"> <img alt=
             "themeforest" src="images/themeforesticon.png" class="themeforest">
@@ -151,37 +174,46 @@
    
        
     <section class="testimonials">
-        <div class="quotebox">
-            <span>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo
-            et! Nulla laborum exercitationem illum</span>
-            <img src="images/blockquote.png" alt="blockquotes" class="blockquote">
-        </div>
-
-            <div class="testimonialsource">
-                <img alt="johndoetestimonial" class="johndoetestimonial" src=
-                "images/johndoetestimonialone.jpg">
-
-                    <div class="testimonialauthor">
-                        <h3>John Doe</h3>
-                        <span class="testimonialwebsite"><em>smashmagazine.com</em></span>
-                    </div>
+        <div class="testimonialslider">
+            <div class="quotebox">
+                <span>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo
+                et! Nulla laborum exercitationem illum</span>
+                <img src="images/blockquote.png" alt="blockquotes" class="blockquote">
+                <img src="images/quotetriangle.png" alt="quotetriangle" class="quotetriangle">
             </div>
+
+                <div class="testimonialsource">
+                    <img alt="johndoetestimonial" class="johndoetestimonial" src=
+                    "images/johndoetestimonialone.jpg">
+                        <div class="testimonialauthor">
+                            <h3>John Doe</h3>
+                            <a href="http://www.smashmagazine.com">smashmagazine.com</a>
+                        </div>
+                </div>
                 
                 <div class="windowdots">
                     <img src="images/activewindowdot.png" alt="activedot">
                     <img src="images/inactivewindowdot.png" alt="inactivedot">
                     <img src="images/inactivewindowdot.png" alt="inactivedot">
                 </div>
+        </div>
         
-
+        <!--
+                <div class="testimonialselector">
+                    <span class="selected"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                   
+-->
         <div class="testimonialtext">
             <h2>Testimonials</h2>
-
             <p>Optio corporis fuga mollitia sit magni ut quasi consequuntur aut
             iste aspernatur totam similiue sint. Harum voluptas vero iste.
             itaque et in sit eveniet acusamus quibusdam cupiditate</p>
         </div>
-        <a href="#">Give Testimonials</a>
+        <a class="testimonialbutton" href="#">Give Testimonials</a>
+   
     </section>
 
    
@@ -197,14 +229,12 @@
            <div class="blogwindow">
                <div class="blogimages">
                    <img alt="chairs" src="images/rowofchairsimage.jpg" class="chairs">
-               </div> 
-                
                    <img alt="earthicon" class="bloglogos" src="images/earthiconbottom.png">
-            
-                        <div class="chairstitle">
-                            <h4>Web Design Fundamental</h4>
-                            <a href="#">Read More</a>
-                        </div>
+               </div> 
+                    <div class="chairstitle">
+                        <h4>Web Design Fundamental</h4>
+                        <a href="#">Read More</a>
+                    </div>
            </div>
       
                    
@@ -213,10 +243,10 @@
                    <img alt="beach" src="images/beachimage.jpg" class="beach"> 
                    <img alt="mobileicon" class="bloglogos" src="images/mobileiconbottom.png">
                </div>
-                        <div class="blogtitleandbutton">
-                            <h4>Native Apps VS Web App, What is the better choice?</h4>
-                            <a href="#">Read More</a>
-                        </div>
+                    <div class="blogtitleandbutton">
+                        <h4>Native Apps VS Web App, What is the better choice?</h4>
+                        <a href="#">Read More</a>
+                    </div>
            </div>
 
            <div class="blogwindow">
@@ -224,10 +254,10 @@
                    <img alt="grass" src="images/grassimage.jpg" class="grass"> 
                    <img alt="monitoricon" class="bloglogos" src="images/monitoriconbottom.png">
                </div>
-                        <div class="blogtitleandbutton">
-                            <h4>Not UI vs UX, It's UI &amp; UX</h4>
-                            <a href="#">Read More</a>
-                        </div>
+                    <div class="blogtitleandbutton">
+                        <h4>Not UI vs UX, It's UI &amp; UX</h4>
+                        <a href="#">Read More</a>
+                    </div>
                 
            </div>
         
@@ -236,10 +266,10 @@
                    <img alt="woodpile" src="images/woodpileimage.jpg" class="woodpile"> 
                    <img alt="businessicon" class="bloglogos" src="images/businesssmalliconbottom.png">
                </div>
-                        <div class="blogtitleandbutton">
-                            <h4>5 Quick Tips to get approved from Google Adsense</h4>
-                            <a href="#">Read More</a>
-                        </div>
+                    <div class="blogtitleandbutton">
+                        <h4>5 Quick Tips to get approved from Google Adsense</h4>
+                        <a href="#">Read More</a>
+                    </div>
            </div>
         </div>
 
@@ -247,7 +277,6 @@
             <h3>Join Our Newsletter for article Update</h3>
             <form class="blogemail">
                 <input id="signup" type="text" class="signupfield"> 
-<!--                <placeholder="exampleipsum.com"</placeholder>-->
             </form>
             <a href="www.gmail.com" img src="images/emailenvelope_52.png" img class="envelope"></a>
             
