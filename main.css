@@ -9,7 +9,7 @@ body{
 }
 
 .pagetitles{
-    font-family: "Source Sans Pro Regular", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: #454545;
     text-transform: uppercase;
@@ -22,7 +22,7 @@ h2>em{
 }
 
 .quote{
-    font-family: 'Droid Serif Regular', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 12px;
     text-align: center;
     color: #454545;
@@ -87,13 +87,12 @@ nav{
 }
 
 .greeting h1 {
-    font-family: "Source Sans Pro Bold", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
             }
 
 .greeting h3 {
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     font-size: 13px;
     font-style: italic;
 }
@@ -109,7 +108,6 @@ nav{
     width: 360px;
     background-color: #f7f7f7;
     position: relative;
-    font-family: "Source Sans Pro Regular", sans-serif;
     color: #454545;
     padding-bottom: 97px;
 }
@@ -139,7 +137,7 @@ nav{
     text-decoration: none;
     border: #acd473 1px solid;
     padding: 11px 15px;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     font-size: 11px;
     font-style: italic;
     margin: 13px 0;
@@ -189,7 +187,6 @@ nav{
 .serviceitem h3{
     color: #acd373;
     text-transform: uppercase;
-    font-family: "Source Sans Pro Bold" sans-serif; 
     font-size: 14px;
     margin: 6px 10px;
 }
@@ -197,7 +194,6 @@ nav{
 .serviceitem p{
     margin: 0 10px;
     color: #454545;
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 13px;
 
 }
@@ -207,7 +203,7 @@ nav{
     text-decoration: none;
     border: #acd473 1px solid;
     padding: 11px 15px;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif Italic', serif;
     font-size: 11px;
     font-style: italic;
     display: inline-block;
@@ -237,7 +233,6 @@ nav{
 .whitedingbat{
     margin: auto;
     position: absolute;
-    top:
 }
     
 
@@ -297,14 +292,13 @@ nav{
 }
         
 .meetourteam h3{
-    font-family: "Source Sans Pro Bold", sans-serif;
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
 }
 
 .meetourteam h4{
-    font-family: "Droid Serif Italic", sans-serif;
+    font-family: 'Droid Serif', sans-serif;
     font-size: 12px;
     color: #787878;
     font-style: italic;
@@ -317,13 +311,14 @@ nav{
     text-align: left;
     position: relative
 }
+
 .meetourteam footer > *{
     display: inline-block;
     vertical-align: middle;
 }
 
 .meetourteam footer span{
-    width: 190px;
+    width: 185px;
 }
 
 .hiringbutton{
@@ -331,7 +326,7 @@ nav{
     text-decoration: none;
     border: #f7f7f7 1px solid;
     padding: 11px 15px;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     font-size: 11px;
     font-style: italic;
 }
@@ -364,7 +359,6 @@ nav{
 }
 
 .recentworks h3{
-    font-family: "Source Sans Pro Bold" sans-serif;
     font-size: 14px;
     color: #454545;
     padding-top: 182px;
@@ -372,7 +366,7 @@ nav{
 }
 
 .recentworks h4{
-    font-family: "Droid Serif Italic" serif;
+    font-family: 'Droid Serif' serif;
     font-size: 12px;
     color: #787878;
     font-style: italic;
@@ -384,7 +378,7 @@ nav{
     text-decoration: none;
     border: #acd473 1px solid;
     padding: 11px 15px;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     font-size: 11px;
     font-style: italic;
     position: relative;
@@ -418,7 +412,7 @@ nav{
     margin: auto;
     width: 300px;
     height: 85px;
-    font-family: "Droid Serif Regular" serif;
+    font-family: 'Droid Serif' serif;
     font-size: 14px;
     z-index: 1;
     color: #e2e0dd;
@@ -462,7 +456,6 @@ nav{
 }
 
 .testimonials h3{
-    font-family: "Source Sans Pro Bold" sans-serif;
     font-size: 14px;
     color: #acd373;
     text-transform: uppercase;
@@ -471,7 +464,7 @@ nav{
 }
 
 .testimonialsource a{
-    font-family: "Droid Serif Italic" serif;
+    font-family: 'Droid Serif' serif;
     font-size: 12px;
     color: #f7f7f7;
     text-decoration: none;
@@ -510,7 +503,6 @@ nav{
 */
 
 .testimonials h2{
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 17px;
     color: #f7f7f7;
     text-transform: uppercase;
@@ -518,7 +510,6 @@ nav{
 }
 
 .testimonials p{
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 12px;
     color: #f7f7f7;
     text-transform: none;
@@ -530,7 +521,7 @@ nav{
     text-decoration: none;
     border: #acd473 1px solid;
     padding: 10px 15px;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     font-size: 11px;
     font-style: italic;
     margin: 14px 0;
@@ -550,23 +541,21 @@ nav{
 .blogwindow{
     width: 160px;
     display: inline-block;
-    vertical-align: top;
-    
+    vertical-align: top; 
     background-color: #ebebeb;
     max-height: 200px;
     margin: 6px 4px;
 }
 
 .blog h4{
-    font-family: "Source Sans Pro Semibold" sans-serif;
-    font-size: 11px;
+    margin: 0;
+    font-size: 12px;
     color: #454545;
     display: inline;
     max-width: 148px;
 }
 
 .blog h3{
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 11px;
     color: #f7f7f7;
     display: inline-block;
@@ -587,12 +576,16 @@ nav{
     margin: -20px 0 10px;
 }
 
+.blogtitle{
+    height: 70px;
+}
+
 .blog a{
     display: block;
     height: 30px;
     background-color: #acd473;
     text-decoration: none;
-    font-family: "Droid Serif Italic", serif;
+    font-family: 'Droid Serif', serif;
     text-align: center;
     font-size: 11px;
     color: #f7f7f7;
@@ -660,7 +653,6 @@ nav{
 
 .contact h5, h4{
     color: #f7f7f7;
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 13px;
     z-index: 2;
 }
@@ -670,7 +662,6 @@ nav{
 }
 
 form label{
-    font-family: "Source Sans Pro Regular" sans-serif;
     font-size: 14px;
     color: #f7f7f7;
     display: block;
@@ -701,7 +692,7 @@ form label{
 }
 
 .contact h3{
-    font-family: "Droid Serif Italic" serif;
+    font-family: 'Droid Serif' serif;
     font-size: 12px;
     z-index: 1;
     color: #f7f7f7;
