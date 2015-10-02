@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <title>Sixteen</title>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900|Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
     <link href="main.css" rel="stylesheet" type="text/css">
     
 </head>
@@ -13,15 +13,26 @@
 <body>
     <header>
         <a class="logo" href="index.html"><img alt="sixteenlogo" src=
-        "images/logo-sixteen.png"></a> 
+        "images/sixteenlogo.png"></a> 
         
         <a class="menubutton" href=
         "www.google.com"><img src="images/button-menu.png"></a>
 
-        <nav></nav>
+        <nav>
+            <div class="sitelinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#team">Team</a>
+                <a href="#works">Works</a>
+                <a href="#clientssay">Clients Say</a>
+                <a href="#blogs">Blog</a>
+                <a href="#contactus">Contact</a>                
+            </div>    
+        </nav>
     </header>
 
-    <section class="greeting">
+    <section id="home" class="greeting">
         <div>
             <h1>We Are Sixteen Digital Agency</h1>
 
@@ -32,15 +43,20 @@
 
     
        
-    <section class="whoweare">
-        <img alt="iphone" class="iphone" src="images/product-iphone.png">
+    <section id="about" class="whoweare">
+        <img alt="iphone" class="iphone" src="images/iphonefullscreen.png">
 
         <h2>Who We Are</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam
         in omnis voluptates, optio architecto doloremque eius, nihil, error
         nemo cum ad consequuntur numquam saepe quibusdam nam dolore
-        sunt</p><a href="#">Learn More</a>
+        sunt</p>
+        
+        <p>Tempora autem maiores laudantium excepturi quidem, quaerat consequuntur atque nam, voluptate molestiae in natus vel, sunt itaque ullam omnis, accusamus est hic. Ab praesentium dolor, iure ut aut quae distinctio quibusdam quo at dolorem saepe architecto, culpa voluptate qui facere blanditiis ducimus consectetur non
+        </p>
+        
+        <a href="#">Learn More</a>
     </section>
 
     
@@ -56,7 +72,7 @@
     
     
 
-    <section class="ourservices">
+    <section id="services" class="ourservices">
         <h2 class="pagetitles">Our <em>Services</em></h2><span class=
         "quote">Asperiores ea commodi eius a quo omnis esse</span>
         <img src="images/dingbatdivider_27.png" img alt="dingbat" class="dingbat">
@@ -95,7 +111,7 @@
     
     
 
-    <section class="meetourteam">
+    <section id="team" class="meetourteam">
        <h2 class="pagetitles">Meet Our Amazing Team</h2><span class=
         "quote">Asperiores ea commodi eius a quo omnis esse</span><br>
         <img alt="dingbat" src="images/whitedivider.png" class="dingbat">
@@ -132,7 +148,7 @@
        
        
        
-   <section class="recentworks">
+   <section id="works" class="recentworks">
         <h2 class="pagetitles">Our Recent <em>Works</em></h2><span class=
         "quote">Asperiores ea commodi eius a quo omnis esse</span><br>
         <img alt="dingbat" src="images/dingbatdivider_27.png" class="dingbat">
@@ -173,7 +189,7 @@
 
    
        
-    <section class="testimonials">
+    <section id="clientssay" class="testimonials">
         <div class="testimonialslider">
             <div class="quotebox">
                 <span>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo
@@ -219,7 +235,7 @@
    
        
         
-  <section class="blog">
+  <section id="blogs" class="blog">
         <h2 class="pagetitles">Blog</h2><span class=
         "quote">Asperiores ea commodi eius a quo omnis esse</span><br>
         <img alt="dingbat" src="images/dingbatdivider_27.png" class="dingbat">
@@ -287,10 +303,9 @@
     
     
     
-    <section class="contact">
+    <section id="contactus" class="contact">
         
         <div class="map">
-            <a href="www.googlemaps.com"><img src="images/mapbackgrndwoverlay.jpg"></a>
             <img src="images/mapmarkericon.png" alt="mapmarker" class="markericon">
             <h5>See Map Details</h5>
         </div>
@@ -298,7 +313,7 @@
         <h2 class="pagetitles">Contact</h2> 
         <img alt="dingbat" src="images/whitedivider.png" class="dingbat">
         
-        <form class="contact">
+        <form class="contactform">
             <label for="nameinput">Name</label>
             <input id="nameinput" type="text" class="textfield">
             

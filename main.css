@@ -2,8 +2,9 @@ html{box-sizing: border-box;}
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body{
-    width: 360px;
+    font-size: 13px;
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -14,6 +15,15 @@ body{
     color: #454545;
     text-transform: uppercase;
     text-align: center;
+}
+
+h1{
+    font-size: 1.538em;
+}
+
+h2{
+    color: #454545;
+    font-size: 18px;
 }
 
 h2>em{
@@ -38,10 +48,13 @@ h2>em{
 }
 
 header {
-    width: 360px;
-    height: 40px;
-    position: relative;
+    position: fixed;
     background-color: #acd373;
+    height: 40px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.06);
+    z-index: 10;
+    width: 100%;
+    transition: all 5s;
 }
 
 a:hover{
@@ -49,9 +62,13 @@ a:hover{
 }
 
 .logo{
-    display: inline-block;
-    margin: 8px 0 0 30px;
+    margin-top: 25px;
 }
+
+.logo img{
+    height: auto;
+}
+
 
 .menubutton{
     display: inline-block;
@@ -68,12 +85,17 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
-    width: 40px;
+    width: auto;
     height: 40px;
 }
     
+.sitelinks{
+    display: none;
+}
+
 .greeting {
-    background: #9abd67 url(images/background-header-silhouette.png) no-repeat bottom;
+    background: #9abd67 url(images/fulllengthsilhouette_12.png) no-repeat bottom;
+    background-size: auto 24%;
     height: 350px;
     position: relative;
     text-align: center;
@@ -105,7 +127,6 @@ nav{
 
 
 .whoweare{
-    width: 360px;
     background-color: #f7f7f7;
     position: relative;
     color: #454545;
@@ -541,7 +562,8 @@ nav{
 .blogwindow{
     width: 160px;
     display: inline-block;
-    vertical-align: top; 
+    vertical-align: top;
+    text-align: center;
     background-color: #ebebeb;
     max-height: 200px;
     margin: 6px 4px;
@@ -634,15 +656,15 @@ nav{
 }
 
 .map{
-    max-height: 129px;
+    background-image: url(images/mapbackgrndwoverlay.jpg) no-repeat center;
+    max-height: 130px;
     display: block;
     margin-top: 20px;
+    background-size: cover;
 }
 
 .markericon{
     z-index: 1;
-    position: relative;
-    top: -122px;
 }
 
 .contact h5{
@@ -659,6 +681,11 @@ nav{
 
 .contact h4{
     margin: 10px;
+}
+
+.contactform{
+    max-width: 570px;
+    margin: 0 auto;
 }
 
 form label{
@@ -685,10 +712,12 @@ form label{
 }
 
 .messagefield{
+    max-width: 570px;
     width: 300px;
     height: 84px;
     background-color: #9abd67;
     border: none;
+    margin: 0 auto;
 }
 
 .contact h3{
@@ -722,4 +751,93 @@ textarea{
     height: 100px;
     background-color: #9abd67;
     padding-top: 29px;
+}
+
+
+
+
+
+
+
+
+/*Media queries*/
+
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {
+}
+@media screen and (min-width: 600px)  {
+    body{
+        font-size: 15px;
+    }
+    
+    .greeting{
+        height: 575px;
+}
+}
+@media screen and (min-width: 1000px) {
+    body{
+        font-size: 18px;
+    }
+    
+    header{
+        height: 105px;
+    }
+    
+    .logo{
+        margin-top: 25%;
+    }
+    
+    nav{
+        width: auto;
+        height: 100%;
+        background: transparent;
+    }
+    
+    .menubutton{
+        display: none;
+    }
+    
+    .sitelinks{
+        display: block;
+    }
+    
+    .sitelinks a{
+        color: #f7f7f7;
+        font-size: 1em;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 105px;
+        margin-right: 30px;
+    }
+
+    .greeting{
+        height: 725px;
+    }  
+
+    .greeting h1{
+        font-size: 48px;
+    }
+
+    .greeting h3{
+        font-size: 24px;
+    }
+    
+    .iphone{
+        float: right;
+    }
+    
+    .map{
+        background-image: url(images/mapfullspread_65.png);
+    }
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+}
+
+
+
 }
