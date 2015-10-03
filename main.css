@@ -62,7 +62,8 @@ a:hover{
 }
 
 .logo{
-    margin-top: 25px;
+    display: inline-block;
+/*    margin-top: 25px;*/
 }
 
 .logo img{
@@ -425,6 +426,7 @@ nav{
 .testimonials{
     margin: 0;
     background: url(images/woodenbkgrndoverlay.jpg);
+    background-size: cover;
     height: 562px;
     position: relative;
 }
@@ -765,6 +767,7 @@ textarea{
 /* Default styles first then media queries */
 @media screen and (min-width: 400px)  {
 }
+
 @media screen and (min-width: 600px)  {
     body{
         font-size: 15px;
@@ -784,7 +787,8 @@ textarea{
     }
     
     .logo{
-        margin-top: 25%;
+        margin-top: 25px;
+        margin-left: 30px;
     }
     
     nav{
@@ -823,9 +827,116 @@ textarea{
         font-size: 24px;
     }
     
+    .downarrow{
+        transform: scale(2,2);
+    }
+    
+    .whoweare h2, .whoweare p, .whoweare a{
+        margin-left: 90px;
+    }
+    
+    .whoweare h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 60px;
+    }
+    
+    .whoweare p{
+        font-size: 16px;
+        max-width: 540px;
+        padding-top: 0;    
+    }
+    
+    .whowearecopytext{
+        padding-top: 100px;
+    }
+      
     .iphone{
         float: right;
+        padding-right: 150px;
+        padding-left: 65px;
     }
+    
+    .whoweare a{
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    
+    
+
+    
+    .ourservices h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 18px;
+    }
+    
+    .ourservices span{
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    
+    .serviceitem h3{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    
+    .serviceitem p{
+        font-size: 16px;
+    }
+    
+    .brushicon, .mobileicon, .monitoricon{
+        transform: scale(1.2,1.2)
+    }
+    
+    .serviceitem{
+        display: inline-block;
+        max-width: 260px;
+        vertical-align: top;
+        margin: 10px 20px 53px 30px;
+    }
+    
+    .ourservices a{
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    
+    
+   
+    .testimonialslider{
+        float: right;
+    }
+    
+    .testimonialtext h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .testimonialtext p{
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    .testimonialtext{
+        display: block;
+        max-width: 300px;
+        margin-left: 135px;
+    }
+    
+    .testimonialbutton{
+        margin-left: 135px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     .map{
         background-image: url(images/mapfullspread_65.png);
