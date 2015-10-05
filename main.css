@@ -425,9 +425,8 @@ nav{
 
 .testimonials{
     margin: 0;
-    background: url(images/woodenbkgrndoverlay.jpg);
+    background: url(images/woodenbkgrndoverlay.jpg) no-repeat;
     background-size: cover;
-    height: 562px;
     position: relative;
 }
 
@@ -619,7 +618,6 @@ nav{
 }
 
 .blog footer{
-    width: 360px;
     height: 62px;
     background-color: #acd373;
     margin-top: 57px;
@@ -876,6 +874,10 @@ textarea{
         margin-bottom: 9px;
     }
     
+    .dingbat{
+        transform: scale(1.5,1.5)
+    }
+    
     .serviceitem h3{
         font-size: 20px;
         margin-top: 0;
@@ -902,49 +904,162 @@ textarea{
     }
     
     
-   
-    .testimonialslider{
+    .quotebox{
+        display: inline-block;
+        margin-left: 490px;
+        margin-top: -55px;
         float: right;
+        width: 370px;
+        height: 122px;
+        font-size: 16px;
+        z-index: 1;
+        padding: 30px 12px;
+    }
+        
+    .testimonials h3{
+        font-size: 18px;
+    }
+    
+    .johndoetestimonial{
+        transform: scale(1.25, 1.25);
+        margin-top: 
+    }
+    
+    .testimonialauthor a{
+        font-size: 17px;
     }
     
     .testimonialtext h2{
         font-size: 30px;
-        margin: 0;
+        font-weight: 400;
+        padding: 0 30px;
     }
     
     .testimonialtext p{
         font-size: 16px;
         margin: 0;
+        padding-bottom: 50px;
     }
     
     .testimonialtext{
-        display: block;
-        max-width: 300px;
+        display: inline-block;
+        max-width: 350px;
         margin-left: 135px;
+        margin-top: 130px;
+    }
+    
+    .testimonialauthor{
+        display: inline-block;
+        margin-left: 53px;
+    }
+    
+    .windowdots{
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 20px;
     }
     
     .testimonialbutton{
         margin-left: 135px;
+        margin-top: 0;
+        z-index: 5;
+        text-decoration: none;
+    }
+    
+    .testimonialwindow{
+        float: right;
+        padding-right: 300px;
     }
     
     
     
     
     
+    .blog h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 18px;
+    }
     
+    .blog span{
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
     
+    .dingbat{
+        transform: scale(1.5,1.5);
+    }
     
+    .blog footer{
+        height: 68px;
+    }
     
+    .blog h3{
+        font-size: 18px;
+    }
     
     
     
     .map{
         background-image: url(images/mapfullspread_65.png);
+        height: 500px;
     }
+    
+    .markericon{
+        transform: scale(1.3, 1.3);
+        display: inline-block;
+        margin-top: 27px;
+    }
+    
+    .contact h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 18px;
+        margin-top: 90px;
+    }
+    
+    .dingbat{
+        transform: scale(1.5,1.5);
+    }
+    
+    form label{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .textfield, .messagefield{
+        width: 570px;
+    }
+    
+    .messagefield{
+        height: 156px;
 }
 
+    .submit{
+        margin-top: 50px;
+        width: 110px;
+        height: 42px;
+        margin-left: 460px;
+}
+    
+    .contact h3{
+        font-size: 18px;
+        display: inline-block;
+        z-index: 1;
+        margin-left: 415px;
+        margin-top: 3px;
+    }
 
-
+    .contact h4{
+        font-size: 18px;
+        display: inline;
+    }
+    
+    .contact footer img{
+        transform: scale(1.35, 1.35);
+        margin: 8px;
+    }
+}
 
 @media screen and (min-width: 1400px) {
 }
