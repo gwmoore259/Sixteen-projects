@@ -98,16 +98,14 @@ nav{
     background: #9abd67 url(images/fulllengthsilhouette_12.png) no-repeat bottom;
     background-size: auto 24%;
     height: 350px;
-    position: relative;
     text-align: center;
-    color: #f7f7f7;}
-
-.greeting > div{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+    color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .greeting h1 {
     font-size: 18px;
@@ -183,9 +181,17 @@ nav{
 
 .servicelist{
     list-style: none;
+    display: flex;
+    
+}
+
+/*
+.servicelist{
+    list-style: none;
     padding: 20px 30px 30px;
     margin-top: 0px;
     }
+*/
 
 .serviceitem{
     margin-bottom: 15px;
@@ -557,17 +563,24 @@ nav{
     background-color: #f7f7f7;
     padding-top: 47px;
     text-align: center;
-    position: relative;
+    
 }
 
 .blogwindow{
-    width: 160px;
-    display: inline-block;
-    vertical-align: top;
+    flex-grow: 1;
+    min-width: 160px;
+    max-width: 300px;
+/*    display: inline-block;*/
+/*    vertical-align: top;*/
     text-align: center;
     background-color: #ebebeb;
     max-height: 200px;
     margin: 6px 4px;
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .blog h4{
@@ -764,6 +777,11 @@ textarea{
 
 /* Default styles first then media queries */
 @media screen and (min-width: 400px)  {
+
+.servicelist{
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (min-width: 600px)  {
@@ -773,7 +791,8 @@ textarea{
     
     .greeting{
         height: 575px;
-}
+    }
+    
 }
 @media screen and (min-width: 1000px) {
     body{
@@ -861,7 +880,10 @@ textarea{
     }
     
     
-
+    .servicelist{
+        flex-direction: row;
+        justify-content: space-around;
+    }
     
     .ourservices h2{
         font-size: 30px;
