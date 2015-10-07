@@ -381,13 +381,12 @@ nav{
 }
     
 .workitem{
-    height: 243px;
-    width: 300px;
     font-color: #ebebeb;
     background-color: #ebebeb;
     margin: auto;
 }
 
+/*
 .letoychart{
     z-index: 1;
     position: absolute;
@@ -396,11 +395,11 @@ nav{
     transform: translateY(-88%);
     left: 30px;
 }
+*/
 
 .recentworks h3{
     font-size: 14px;
     color: #454545;
-    padding-top: 182px;
     text-transform: uppercase;
 }
 
@@ -794,10 +793,11 @@ textarea{
         justify-content: space-around;
     }
     
+/*
     .brushicon, .mobileicon, .monitoricon{
         max-height: 60px;
-        transform: scale()
     }
+*/
     
     .charticon, .controllericon, .hearticon{
         display: none;
@@ -874,6 +874,12 @@ textarea{
         transform: scale(2,2);
     }
     
+   
+    
+    
+    
+/*    WHO WE ARE 1000PX*/
+    
     .whoweare h2, .whoweare p, .whoweare a{
         margin-left: 90px;
     }
@@ -905,9 +911,15 @@ textarea{
         padding: 8px 12px;
     }
     
+   
+    
+    
+/*    OUR SERVICES 1000PX*/
     
     .servicelist{
-        flex-direction: row;
+        display: flex;
+/*        flex-direction: row;*/
+        flex-flow: row wrap;
         justify-content: space-around;
     }
     
@@ -926,6 +938,10 @@ textarea{
         transform: scale(1.5,1.5)
     }
     
+    .serviceitem h3, .serviceitem p{
+        margin-left: 30px
+    }
+    
     .serviceitem h3{
         font-size: 20px;
         margin-top: 0;
@@ -937,15 +953,22 @@ textarea{
     
     .serviceitem{
         display: inline-block;
-        max-width: 260px;
+        max-width: 340px;
         vertical-align: top;
-        margin: 10px 20px 53px 30px;
+        margin: 10px 0px 53px 0px;
     }
     
     .ourservices a{
         font-size: 16px;
         padding: 8px 12px;
+        justify-content: center;
     }
+    
+    
+    
+    
+    
+/*    MEET OUR TEAM 1000PX*/
     
     .meetourteam h2{
         font-size: 30px;
@@ -995,6 +1018,55 @@ textarea{
         width: 28px;
         margin-top: 14px;
     }
+  
+    
+    
+    
+    
+/*    RECENT WORKS 1000PX*/
+    
+    .recentworks h2{
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 18px;
+    }
+    
+    .recentworks span{
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    
+    .dingbat{
+        transform: scale(1.5,1.5)
+    }
+    
+    .recentworks h3{
+        font-size: 18px;
+    }
+    
+    .recentworks h4{
+        font-size: 16px;
+    }
+    
+    .workcontainer{
+        margin-top: 40px;
+        display: flex;
+        flex-flow: row wrap;
+/*        max-width: 570px;*/
+        justify-content: space-around;
+    }
+    
+    .workitemwindow{
+        margin-top: 30px;
+        max-width: 570px;
+        max-height: 370px;
+    }
+    
+    
+    
+    
+    
+/*   TESTIMONIALS 1000PX */
     
     .quotebox{
         display: inline-block;
@@ -1067,6 +1139,8 @@ textarea{
     
     
     
+/*    BLOG 1000PX*/
+    
     .blog h2{
         font-size: 30px;
         font-weight: 400;
@@ -1091,6 +1165,10 @@ textarea{
     }
     
     
+    
+    
+    
+/*    CONTACT 1000PX*/
     
     .map{
         background-image: url(images/mapfullspread_65.png);
